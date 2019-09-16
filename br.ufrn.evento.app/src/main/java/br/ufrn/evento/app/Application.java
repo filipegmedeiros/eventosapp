@@ -1,4 +1,4 @@
-package br.ufrn.evento.app.br.ufrn.evento.app;
+package br.ufrn.evento.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
