@@ -1,4 +1,4 @@
-package br.ufrn.evento.app;
+package br.ufrn.evento.app.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 public class IndexController {
 
-    @RequestMapping("/")
+    @RequestMapping("/") /* Requisao, retorno */
     public String index(){
         return "index";
     }
